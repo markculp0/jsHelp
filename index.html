@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Website Help Pages</title>
+  <style>
+    BODY {text-align: center;
+	  	    margin: 5%;
+    } 
+    #myhtmlmenu, #mycssmenu, #jsmenu {display: none;		
+    }
+  </style>
+</head>
+<body>
+  <h2>JavaScript and Web Page Reference</h2>
+  <ul>  <!-- Main UL -->
+    <li><a id="myhtml" href="#" onclick=Toggle() >[+] HTML</a>
+      <ul id="myhtmlmenu">
+        <li>myPage1</li>
+        <li>myPage2</li>
+      </ul>
+    </li>
+    <li><a id="mycss" href="#">[+] CSS</a>
+      <ul id="mycssmenu">
+        <li>myStyle1</li>
+        <li>myStyle2</li>
+      </ul>
+    </li>
+    <li><a id="js" href="#">[+] JavaScript</a>
+      <ul id="jsmenu">
+        <li>myScript1</li>
+        <li>myScript2</li>
+      </ul>
+    </li>
+  </ul> <!-- End Main UL -->
+  <script type="text/javascript" src="tree.js"></script>
+</body>
+</html>
+
+
